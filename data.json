@@ -1,0 +1,1324 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-14T13:00:57+00:00",
+  "tested_candidates": 5,
+  "published_candidates": 5,
+  "source_note": "FM Tactics Lab A/B matches, synthetic opponent strength tiers. Initial snapshot, new data available only after publisher runs.",
+  "catalog": {
+    "teams": {},
+    "players": {},
+    "roles": {}
+  },
+  "tactics": [
+    {
+      "id": "T00003",
+      "ip_shape": "3-2-1-2-2",
+      "oop_shape": "5-1-2-2",
+      "mentality": 5,
+      "team_instructions": {
+        "1": 1483944022,
+        "3": 846284410,
+        "4": 1951095402,
+        "5": 1934574368,
+        "6": 1869829494,
+        "7": 1315850041,
+        "8": 1196979288,
+        "9": 1329018200,
+        "10": 2000905329,
+        "11": 928473934,
+        "12": 1498428227,
+        "15": 825575765,
+        "16": 1398290509,
+        "17": 842232368,
+        "18": 1364668513,
+        "19": 1480870768,
+        "20": 1196126273,
+        "21": 1496610426,
+        "22": 1684615797,
+        "23": 1667524405,
+        "24": 1732331848,
+        "25": 1381658469,
+        "26": 1817334343,
+        "27": 1951290700,
+        "28": 1128871265,
+        "29": 1248478788,
+        "30": 1800754547,
+        "31": 1700947790,
+        "32": 1466265977
+      },
+      "ip": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "Goalkeeper",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "TargetForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "ChannelForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "WBL",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "ChannelMidfielder",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "DefensiveMidfielder",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "CentralMidfielder",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "WBR",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "CentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "7": 1
+          }
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        }
+      ],
+      "oop": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "OPGoalkeeper",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "OPCentralOutletCentreForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "OPCentreForward",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "DL",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "OPScreeningDefensiveMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "DR",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "OPCoveringCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        }
+      ],
+      "stats": {
+        "overall": {
+          "matches": 60,
+          "wins": 23,
+          "draws": 15,
+          "losses": 22,
+          "win_rate": 38.3,
+          "ppg": 1.4,
+          "xg": 0.919,
+          "xga": 0.907,
+          "xg_diff": 0.012
+        },
+        "groups": {
+          "strong": {
+            "matches": 20,
+            "wins": 0,
+            "draws": 5,
+            "losses": 15,
+            "win_rate": 0,
+            "ppg": 0.25,
+            "xg": 0.508,
+            "xga": 1.542,
+            "xg_diff": -1.034,
+            "goal_diff": null
+          },
+          "equal": {
+            "matches": 20,
+            "wins": 8,
+            "draws": 6,
+            "losses": 6,
+            "win_rate": 40,
+            "ppg": 1.5,
+            "xg": 0.817,
+            "xga": 0.711,
+            "xg_diff": 0.106,
+            "goal_diff": null
+          },
+          "weak": {
+            "matches": 20,
+            "wins": 15,
+            "draws": 4,
+            "losses": 1,
+            "win_rate": 75,
+            "ppg": 2.45,
+            "xg": 1.434,
+            "xga": 0.469,
+            "xg_diff": 0.965,
+            "goal_diff": null
+          }
+        }
+      },
+      "change": {
+        "parent": "T00001",
+        "field": "mentality",
+        "old": "4",
+        "new": "5"
+      }
+    },
+    {
+      "id": "T00004",
+      "ip_shape": "3-2-1-2-2",
+      "oop_shape": "5-1-2-2",
+      "mentality": 4,
+      "team_instructions": {
+        "1": 1985571685,
+        "3": 846284410,
+        "4": 1951095402,
+        "5": 1934574368,
+        "6": 1869829494,
+        "7": 1315850041,
+        "8": 1196979288,
+        "9": 1329018200,
+        "10": 2000905329,
+        "11": 928473934,
+        "12": 1498428227,
+        "15": 825575765,
+        "16": 1398290509,
+        "17": 842232368,
+        "18": 1364668513,
+        "19": 1480870768,
+        "20": 1196126273,
+        "21": 1496610426,
+        "22": 1684615797,
+        "23": 1667524405,
+        "24": 1732331848,
+        "25": 1381658469,
+        "26": 1817334343,
+        "27": 1951290700,
+        "28": 1128871265,
+        "29": 1248478788,
+        "30": 1800754547,
+        "31": 1700947790,
+        "32": 1466265977
+      },
+      "ip": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "Goalkeeper",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "TargetForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "ChannelForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "WBL",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "ChannelMidfielder",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "DefensiveMidfielder",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "CentralMidfielder",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "WBR",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "CentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "7": 1
+          }
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        }
+      ],
+      "oop": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "OPGoalkeeper",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "OPCentralOutletCentreForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "OPCentreForward",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "DL",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "OPScreeningDefensiveMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "DR",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "OPCoveringCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        }
+      ],
+      "stats": {
+        "overall": {
+          "matches": 60,
+          "wins": 20,
+          "draws": 20,
+          "losses": 20,
+          "win_rate": 33.3,
+          "ppg": 1.333,
+          "xg": 0.848,
+          "xga": 0.791,
+          "xg_diff": 0.057
+        },
+        "groups": {
+          "strong": {
+            "matches": 20,
+            "wins": 2,
+            "draws": 6,
+            "losses": 12,
+            "win_rate": 10,
+            "ppg": 0.6,
+            "xg": 0.414,
+            "xga": 1.331,
+            "xg_diff": -0.917,
+            "goal_diff": null
+          },
+          "equal": {
+            "matches": 20,
+            "wins": 6,
+            "draws": 10,
+            "losses": 4,
+            "win_rate": 30,
+            "ppg": 1.4,
+            "xg": 0.743,
+            "xga": 0.641,
+            "xg_diff": 0.102,
+            "goal_diff": null
+          },
+          "weak": {
+            "matches": 20,
+            "wins": 12,
+            "draws": 4,
+            "losses": 4,
+            "win_rate": 60,
+            "ppg": 2.1,
+            "xg": 1.389,
+            "xga": 0.401,
+            "xg_diff": 0.988,
+            "goal_diff": null
+          }
+        }
+      },
+      "change": {
+        "parent": "T00001",
+        "field": "1",
+        "old": "1483944022",
+        "new": "1985571685"
+      }
+    },
+    {
+      "id": "T00006",
+      "ip_shape": "3-2-1-2-2",
+      "oop_shape": "5-1-2-2",
+      "mentality": 4,
+      "team_instructions": {
+        "1": 2019653698,
+        "3": 846284410,
+        "4": 1951095402,
+        "5": 1934574368,
+        "6": 1869829494,
+        "7": 1315850041,
+        "8": 1196979288,
+        "9": 1329018200,
+        "10": 2000905329,
+        "11": 928473934,
+        "12": 1498428227,
+        "15": 825575765,
+        "16": 1398290509,
+        "17": 842232368,
+        "18": 1364668513,
+        "19": 1480870768,
+        "20": 1196126273,
+        "21": 1496610426,
+        "22": 1684615797,
+        "23": 1667524405,
+        "24": 1732331848,
+        "25": 1381658469,
+        "26": 1817334343,
+        "27": 1951290700,
+        "28": 1128871265,
+        "29": 1248478788,
+        "30": 1800754547,
+        "31": 1700947790,
+        "32": 1466265977
+      },
+      "ip": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "Goalkeeper",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "TargetForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "ChannelForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "WBL",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "ChannelMidfielder",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "DefensiveMidfielder",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "CentralMidfielder",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "WBR",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "CentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "7": 1
+          }
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        }
+      ],
+      "oop": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "OPGoalkeeper",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "OPCentralOutletCentreForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "OPCentreForward",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "DL",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "OPScreeningDefensiveMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "DR",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "OPCoveringCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        }
+      ],
+      "stats": {
+        "overall": {
+          "matches": 60,
+          "wins": 18,
+          "draws": 23,
+          "losses": 19,
+          "win_rate": 30,
+          "ppg": 1.283,
+          "xg": 0.855,
+          "xga": 0.968,
+          "xg_diff": -0.113
+        },
+        "groups": {
+          "strong": {
+            "matches": 20,
+            "wins": 0,
+            "draws": 9,
+            "losses": 11,
+            "win_rate": 0,
+            "ppg": 0.45,
+            "xg": 0.563,
+            "xga": 1.421,
+            "xg_diff": -0.858,
+            "goal_diff": null
+          },
+          "equal": {
+            "matches": 20,
+            "wins": 5,
+            "draws": 10,
+            "losses": 5,
+            "win_rate": 25,
+            "ppg": 1.25,
+            "xg": 0.702,
+            "xga": 0.836,
+            "xg_diff": -0.134,
+            "goal_diff": null
+          },
+          "weak": {
+            "matches": 20,
+            "wins": 13,
+            "draws": 4,
+            "losses": 3,
+            "win_rate": 65,
+            "ppg": 2.15,
+            "xg": 1.298,
+            "xga": 0.647,
+            "xg_diff": 0.651,
+            "goal_diff": null
+          }
+        }
+      },
+      "change": {
+        "parent": "T00001",
+        "field": "1",
+        "old": "1483944022",
+        "new": "2019653698"
+      }
+    },
+    {
+      "id": "T00005",
+      "ip_shape": "3-2-1-2-2",
+      "oop_shape": "5-1-2-2",
+      "mentality": 4,
+      "team_instructions": {
+        "1": 1146434657,
+        "3": 846284410,
+        "4": 1951095402,
+        "5": 1934574368,
+        "6": 1869829494,
+        "7": 1315850041,
+        "8": 1196979288,
+        "9": 1329018200,
+        "10": 2000905329,
+        "11": 928473934,
+        "12": 1498428227,
+        "15": 825575765,
+        "16": 1398290509,
+        "17": 842232368,
+        "18": 1364668513,
+        "19": 1480870768,
+        "20": 1196126273,
+        "21": 1496610426,
+        "22": 1684615797,
+        "23": 1667524405,
+        "24": 1732331848,
+        "25": 1381658469,
+        "26": 1817334343,
+        "27": 1951290700,
+        "28": 1128871265,
+        "29": 1248478788,
+        "30": 1800754547,
+        "31": 1700947790,
+        "32": 1466265977
+      },
+      "ip": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "Goalkeeper",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "TargetForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "ChannelForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "WBL",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "ChannelMidfielder",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "DefensiveMidfielder",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "CentralMidfielder",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "WBR",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "CentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "7": 1
+          }
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        }
+      ],
+      "oop": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "OPGoalkeeper",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "OPCentralOutletCentreForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "OPCentreForward",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "DL",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "OPScreeningDefensiveMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "DR",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "OPCoveringCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        }
+      ],
+      "stats": {
+        "overall": {
+          "matches": 60,
+          "wins": 15,
+          "draws": 21,
+          "losses": 24,
+          "win_rate": 25,
+          "ppg": 1.1,
+          "xg": 0.757,
+          "xga": 1.016,
+          "xg_diff": -0.259
+        },
+        "groups": {
+          "strong": {
+            "matches": 20,
+            "wins": 2,
+            "draws": 8,
+            "losses": 10,
+            "win_rate": 10,
+            "ppg": 0.7,
+            "xg": 0.392,
+            "xga": 1.359,
+            "xg_diff": -0.967,
+            "goal_diff": null
+          },
+          "equal": {
+            "matches": 20,
+            "wins": 3,
+            "draws": 10,
+            "losses": 7,
+            "win_rate": 15,
+            "ppg": 0.8,
+            "xg": 0.72,
+            "xga": 1.048,
+            "xg_diff": -0.328,
+            "goal_diff": null
+          },
+          "weak": {
+            "matches": 20,
+            "wins": 10,
+            "draws": 3,
+            "losses": 7,
+            "win_rate": 50,
+            "ppg": 1.8,
+            "xg": 1.16,
+            "xga": 0.641,
+            "xg_diff": 0.519,
+            "goal_diff": null
+          }
+        }
+      },
+      "change": {
+        "parent": "T00001",
+        "field": "1",
+        "old": "1483944022",
+        "new": "1146434657"
+      }
+    },
+    {
+      "id": "T00002",
+      "ip_shape": "3-2-1-2-2",
+      "oop_shape": "5-1-2-2",
+      "mentality": 3,
+      "team_instructions": {
+        "1": 1483944022,
+        "3": 846284410,
+        "4": 1951095402,
+        "5": 1934574368,
+        "6": 1869829494,
+        "7": 1315850041,
+        "8": 1196979288,
+        "9": 1329018200,
+        "10": 2000905329,
+        "11": 928473934,
+        "12": 1498428227,
+        "15": 825575765,
+        "16": 1398290509,
+        "17": 842232368,
+        "18": 1364668513,
+        "19": 1480870768,
+        "20": 1196126273,
+        "21": 1496610426,
+        "22": 1684615797,
+        "23": 1667524405,
+        "24": 1732331848,
+        "25": 1381658469,
+        "26": 1817334343,
+        "27": 1951290700,
+        "28": 1128871265,
+        "29": 1248478788,
+        "30": 1800754547,
+        "31": 1700947790,
+        "32": 1466265977
+      },
+      "ip": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "Goalkeeper",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "TargetForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "ChannelForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "WBL",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "ChannelMidfielder",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "DefensiveMidfielder",
+          "duty": "2097152",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "CentralMidfielder",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "WBR",
+          "role": "WingBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "CentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "7": 1
+          }
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "WideCentreBack",
+          "duty": "2097152",
+          "instructions": {
+            "0": 25
+          }
+        }
+      ],
+      "oop": [
+        {
+          "slot": 0,
+          "position": "GK",
+          "role": "OPGoalkeeper",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 1,
+          "position": "STL",
+          "role": "OPCentralOutletCentreForward",
+          "duty": "8388608",
+          "instructions": {}
+        },
+        {
+          "slot": 2,
+          "position": "STR",
+          "role": "OPCentreForward",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 3,
+          "position": "DL",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {
+            "13": 31
+          }
+        },
+        {
+          "slot": 4,
+          "position": "MCL",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 5,
+          "position": "DMC",
+          "role": "OPScreeningDefensiveMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 6,
+          "position": "MCR",
+          "role": "OPScreeningCentralMidfielder",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 7,
+          "position": "DR",
+          "role": "OPPressingFullBack",
+          "duty": "4194304",
+          "instructions": {}
+        },
+        {
+          "slot": 8,
+          "position": "DCL",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 9,
+          "position": "DC",
+          "role": "OPCoveringCentreBack",
+          "duty": "0",
+          "instructions": {}
+        },
+        {
+          "slot": 10,
+          "position": "DCR",
+          "role": "OPCentreBack",
+          "duty": "0",
+          "instructions": {}
+        }
+      ],
+      "stats": {
+        "overall": {
+          "matches": 60,
+          "wins": 13,
+          "draws": 21,
+          "losses": 26,
+          "win_rate": 21.7,
+          "ppg": 1,
+          "xg": 0.711,
+          "xga": 0.881,
+          "xg_diff": -0.17
+        },
+        "groups": {
+          "strong": {
+            "matches": 20,
+            "wins": 1,
+            "draws": 7,
+            "losses": 12,
+            "win_rate": 5,
+            "ppg": 0.5,
+            "xg": 0.426,
+            "xga": 1.31,
+            "xg_diff": -0.884,
+            "goal_diff": null
+          },
+          "equal": {
+            "matches": 20,
+            "wins": 3,
+            "draws": 9,
+            "losses": 8,
+            "win_rate": 15,
+            "ppg": 0.9,
+            "xg": 0.505,
+            "xga": 0.873,
+            "xg_diff": -0.368,
+            "goal_diff": null
+          },
+          "weak": {
+            "matches": 20,
+            "wins": 9,
+            "draws": 5,
+            "losses": 6,
+            "win_rate": 45,
+            "ppg": 1.6,
+            "xg": 1.203,
+            "xga": 0.459,
+            "xg_diff": 0.744,
+            "goal_diff": null
+          }
+        }
+      },
+      "change": {
+        "parent": "T00001",
+        "field": "mentality",
+        "old": "4",
+        "new": "3"
+      }
+    }
+  ]
+}
